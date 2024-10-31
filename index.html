@@ -233,6 +233,47 @@
       </div>
   </section>
   <!-- End teaser section -->
+
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Limitations and Future Directions </h2>
+          <div class="content has-text-justified">
+            <p>
+                The limitations of our work and some future directions are discussed as follows. 
+            </p>
+            <ul>
+                <li><b>The information extraction from circuit diagrams </b></li>
+                In this paper, the official solution serves as a benchmark for assessing student homework. It also 
+                provides essential information for LLMs in conducting these assessments. Circuit diagrams, however, 
+                are crucial elements in circuit analysis courses. Although the state-of-the-art model, GPT-4o, 
+                cannot yet reliably recognize elements in a basic circuit diagram, we can design and employ external 
+                tools to extract information from these diagrams and present it in a way that LLMs can interpret. 
+                This approach enables LLMs to conduct assessments and generate feedback even when no reference solution 
+                is available. Future research can further explore the use of LLMs to independently solve circuit 
+                analysis problems.
+
+                <li><b>Customized prompts for different LLMs </b></li>
+                In this paper, we use a common prompt template for all three evaluated LLMs to ensure that their 
+                responses are fairly comparable. In future work, we plan to develop customized prompts optimized for 
+                each LLM to further enhance their performance in providing homework feedback. Additionally, the 
+                limitations identified in this study can guide refinements in prompt design or fine-tuning of LLMs 
+                with suitable data. We are actively exploring ways to improve off-the-shelf models for homework assessment 
+                and feedback generation in the circuit analysis course. 
+
+                <li><b>The scope of the dataset and LLM evaluations </b></li>
+                The dataset used in this paper is drawn solely from the circuit analysis course, and accordingly, the LLMs 
+                are evaluated only on homework assessments for this subject. In future work, it would be valuable to expand 
+                the dataset to include additional courses in electrical and computer engineering, as well as other areas 
+                within the broader engineering field. Evaluating the performance of different LLMs across these subjects 
+                would also be worthwhile. 
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   
 <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
 
